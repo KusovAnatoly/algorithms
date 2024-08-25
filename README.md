@@ -102,7 +102,7 @@ git config user.email "YOUR-GIHUB-EMAIL@EXAMPLE.COM"
 *note: это делается для того, чтобы вы могли вносить изменения в ваш удаленный репозиторий на GitHub*
 
 5. чтобы отметить, что вы добавили/изминили/удалили файлы в вашем проекте, необходимо добавить их *staging area* с помощью команды `git add .` или `git add --all` или `git add -A`
-6. создайте коммит с помощью команды `git commit -m "ANY-MESSAGE-YOU-WANT-TO-LIVE"`
+6. создайте коммит с помощью команды `git commit -m "ANY-MESSAGE-YOU-WANT-TO-LEAVE"`
 7. отправьте изменения в удаленный репозиторий с помощью команды `git push -u origin BRANCH-NAME`
 
 *note: имя ветки по умолчанию main (в более старых версиях master), проверить имя ветки можно через команду* `git status`
